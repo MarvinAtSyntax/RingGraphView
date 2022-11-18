@@ -47,7 +47,7 @@ class RingGraphView: UIView {
         layer.addSublayer(gradientLayer)
         
         
-        
+        //MARK: Dies ist ein Test
     }
 
 }
