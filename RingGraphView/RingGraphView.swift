@@ -30,8 +30,8 @@ class RingGraphView: UIView {
         ringLayer.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height)
         ringLayer.lineWidth = ringWidth
         ringLayer.strokeColor = UIColor.white.cgColor
-        //ringLayer.fillColor = nil
-        ringLayer.strokeEnd = 0.5
+        ringLayer.fillColor = nil
+        ringLayer.strokeEnd = 0.27
         ringLayer.lineCap = .round
         ringLayer.transform = CATransform3DMakeRotation(offSet, 0, 0, -1)
         layer.addSublayer(ringLayer)
